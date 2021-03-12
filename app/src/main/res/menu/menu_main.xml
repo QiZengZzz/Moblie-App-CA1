@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_View">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_allfood"
+            android:icon="@drawable/ic_allfood"
+            android:title="All"/>
+        <item android:id="@+id/nav_meal"
+            android:icon="@drawable/ic_meal"
+            android:title="Meal"/>
+        <item android:id="@+id/nav_food"
+            android:icon="@drawable/ic_food"
+            android:title="Food"/>
+        <item android:id="@+id/nav_drink"
+            android:icon="@drawable/ic_drink"
+            android:title="Drink"/>
+    </group>
+
+    <item android:title="Your Order">
+       <menu>
+           <item android:id="@+id/nav_order"
+               android:icon="@drawable/ic_order"
+               android:title="Orders"/>
+       </menu>
+    </item>
+
+</menu>
